@@ -1,10 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Roboto Condensed', sans-serif;
 }
 .half-width{
     width: 35%;
     float: left;
-    margin-left: 8%;
+    margin-left: 7%;
     padding-left: 4%;
 }
 .half-width img{
@@ -22,17 +26,21 @@ h3{
 h4{
     font-size: 30px;
 }
+h5{
+    font-size: 25px;
+}
 p{
     color: dimgrey;
 }
 section{
-    height: 580px;
+    height: 500px;
+    padding-bottom: 40px;
 }
 .anchor{
     text-decoration: none;
     background: #FF418C;
     color: white;
-    padding: 8px 23px;
+    padding: 8px 20px;
     border-radius: 5px;
 }
 /* Header Section */
@@ -41,34 +49,57 @@ section{
     background-repeat: no-repeat;
 }
 .left-part{
-    padding-top: 80px;
+    padding-top: 120px;
 }
 /* Biography Section */
 #biography{
     background-image: url('images/biography-bg.png');
 }
 .right-part{
-    padding-top: 80px;
+    padding-top: 120px;
 }
 /* Dream Will Comes True */
 #dream-true{
-    background: url('images/latest-work-bg.png');
+    background: url('images/highlighted-topics.png');
+    background-repeat: no-repeat;
+}
+#dream-true h1{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+}
+#dream{
+    border-right: 7px solid;
+    border-image: linear-gradient(180deg, #22c1c3, #fdbb2d);
+    border-image-slice: 1;
+}
+#dream h3{
+    padding-top: 30px;
+}
+#true{
+    border-right: 7px solid;
+    border-image: linear-gradient(180deg, #3f5efb, #fc466b);
+    border-image-slice: 1;
+}
+#true h3{
+    padding-top: 30px;
 }
 .box{
-    height: 380px;
+    height: 300px;
     box-shadow: 10px 10px 15px gray;
-    margin-top: 100px;
+    margin-top: 60px;
 }
-.box h4{
+.box h5{
     color: green;
 }
 /* Latest Work */
 #latest-work{
-    padding-top: 100px;
+    padding-top: 40px;
     background-image: url('images/latest-work-bg.png');
 }
 #latest-work h3{
     text-align: center;
+    padding-bottom: 30px;
 }
 .work-section{
     display: flex;
@@ -84,11 +115,17 @@ section{
 /* Client's Feedback */
 #what-client-say{
     background-image: url('images/footer-bg.png');
-    margin-bottom: 120px;
+    padding-top: 50px;
 }
 .clients-feedback{
     text-align: center;
-    padding-top: 30px;
+}
+.clients-feedback h3{
+    padding-bottom: 67px;
+}
+.clients-feedback h4{
+    font-size: 18px;
+    padding-bottom: 10px;
 }
 .text{
     width: 20%;
@@ -106,6 +143,9 @@ section{
     font-size: 20px;
 }
 /* Footer */
+footer{
+    padding: 20px 20px;
+}
 footer p{
     text-align: center;
 }
