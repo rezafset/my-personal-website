@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Noto Serif', serif;
 }
 .half-width{
     width: 35%;
@@ -27,7 +27,7 @@ h4{
     font-size: 30px;
 }
 h5{
-    font-size: 25px;
+    font-size: 20px;
 }
 p{
     color: dimgrey;
@@ -73,7 +73,7 @@ section{
     border-image: linear-gradient(180deg, #22c1c3, #fdbb2d);
     border-image-slice: 1;
 }
-#dream h3{
+#dream h4{
     padding-top: 30px;
 }
 #true{
@@ -81,13 +81,14 @@ section{
     border-image: linear-gradient(180deg, #3f5efb, #fc466b);
     border-image-slice: 1;
 }
-#true h3{
+#true h4{
     padding-top: 30px;
 }
 .box{
     height: 300px;
-    box-shadow: 10px 10px 15px gray;
+    box-shadow: 9px 9px 15px gray;
     margin-top: 60px;
+    padding-right: 15px;
 }
 .box h5{
     color: green;
